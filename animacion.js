@@ -1,4 +1,4 @@
-var words = ['Los Videos juegos', 'El desarrollo Web', 'Ver Series', 'Por la Tecnologia', 'coder'],
+var words = ['Los Video juegos', 'El desarrollo Web', 'Ver Series', 'la Tecnologia', 'coder'],
     wordWrapper = document.getElementById('animacion'),
     wordWrapperContent = wordWrapper.innerHTML,
     addingWord = false,
