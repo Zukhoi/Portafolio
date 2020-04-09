@@ -120,7 +120,12 @@ figure{
   justify-content: space-between;
 }
 
-
+.hero .container img {
+  width:200px;
+  height:200px;
+  border-radius:150px;
+  object-fit: cover;
+}
 
 .box{
   width: 200px;

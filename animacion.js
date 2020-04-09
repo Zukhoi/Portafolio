@@ -30,3 +30,8 @@ setInterval(function(){
   }
 
 }, 190);
+
+
+
+
+
