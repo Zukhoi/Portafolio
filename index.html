@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="imagenes-portafolio//favicon-96x96.png">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Css/estilos-portafolio.css">
+  <link rel="stylesheet" href="Css/animation.css">
 </head>
 <body>
   <header class="header">
@@ -27,7 +28,7 @@
     </div>
   </header>
   <section class="hero">
-    <div class="container">
+    <div class="container fadeInDown">
     <h1>
         Hola! Soy <strong>Luis Carlos Garrido</strong> <br/>Estudiante de Ingenieria de Sistemas<br/>apasionado por <span class="animacion-h1" id="animacion"></span>
       </h1>
@@ -35,10 +36,10 @@
     </div>
   </section>
   <div class="container">
-    <h2 class="event-list-title">Portafolio</h2>
+    <h2 class="event-list-title fadeIn">Portafolio</h2>
   </div>
   <section id="portafolio" class="portafolio-list">
-    <div class="container">
+    <div class="container fadeInUp">
     <article class="portafolio">
       <figure class="portafolio-imageContainer">
         <img class="portafolio-image"src="imagenes-portafolio/SimonDice.PNG" width="500"/>
@@ -75,23 +76,23 @@
         <a class="portafolio-url" href="https://github.com/Zukhoi/DesarrolloWeb" target="_blank">Ver Proyecto</a>
       </div>
     </article>
-  </div>
-    <!--
     <article class="portafolio">
       <figure class="portafolio-imageContainer">
-        <img class="portafolio-image"src="imagenes-portafolio/platzi-conf.webp" width="500"/>
+        <img class="portafolio-image"src="imagenes-portafolio/Curso_Html_Css.PNG" width="500"/>
       </figure>
         <div class="portafolio-detail">
-        <h3 class="portafolio-tittle">Otro Curso</h3>
-        <p class="portafolio-description">El evento mas grande sobre gente que quiere aprender mas de internet,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud "</p>
-        <a class="portafolio-url" href="https://platzi.com/blog/asi-fue-platziconf-2018/" target="_blank">Ver Diploma</a>
-        <a class="portafolio-url" href="https://platzi.com/blog/asi-fue-platziconf-2018/" target="_blank">Ver Proyecto</a>
-      </div>-->
+        <h3 class="portafolio-tittle">Tienda de Arenas de gatos</h3>
+        <h5>Hecho con HTML y CSS</h5>
+        <p class="portafolio-description">Página web conectada con PayPal con la cual se hace el proceso de compra  de los productos ofrecidos. </p>
+        <a class="portafolio-url" href="https://platzi.com/@zukhoi/curso/1492-html-css/diploma/detalle/" target="_blank">Ver Diploma</a>
+        <a class="portafolio-url" href="https://zukhoi.github.io/Tienda_Arena/index.html" target="_blank">Ver Proyecto</a>
+      </div>
     </article>
+  </div>
   </section>
   <section id="contacto" class="contact">
     <div class="container">
-      <form action="/suscripcion" class="from-email">
+      <form action="mailto:luiis87.lds@gmail.com" class="from-email">
         <h3>¿Creamos algo Juntos?</h3>
         <input type="text" placeholder="Escribe tu email" id="email">
         <button>Enviar</button>
